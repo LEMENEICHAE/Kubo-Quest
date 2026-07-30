@@ -6,7 +6,6 @@ namespace Enums {
         PLAIN,
         FIGHTING,
         UMBRA,
-        LUX,
         GHOUL,
         FROST,
         ALLOY,
@@ -17,6 +16,7 @@ namespace Enums {
         INSECT,
         MAGE,
         DRACO,
-        BOULDER
+        BOULDER,
+        SPARK
     }
 }
