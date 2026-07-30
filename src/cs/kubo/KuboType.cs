@@ -13,6 +13,8 @@ namespace Enums {
             
             if (secondary == Types.PLAIN || primary == secondary) {
                 Secondary = null;
+            } else if (Primary == Types.PLAIN){
+                Secondary = null;
             } else {
                 Secondary = secondary;
             }
