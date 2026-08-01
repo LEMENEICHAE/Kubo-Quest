@@ -1,4 +1,4 @@
-namespace Enums {
+namespace ResourceProperties {
     public enum ResourceProperty {
         //HARDNESS
         HARD,
@@ -10,10 +10,11 @@ namespace Enums {
         GRAY,
         GREEN,
         MAGENTA,
+        RAINBOW,
         //TYPE
         SEED,
         FRUIT,
-        GRAIN,
+        SLUDGE,
         FUNGUS,
         MINERAL,
         ROOT,
@@ -21,6 +22,11 @@ namespace Enums {
         COMMON,
         RARE,
         EPIC,
-        LEGENDARY
+        LEGENDARY,
+        //TASTE
+        SPICY,
+        SOUR,
+        SWEET,
+        SAVORY
     }
 }
